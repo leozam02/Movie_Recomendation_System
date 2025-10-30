@@ -73,3 +73,11 @@ Librerías principales:
 - Contribuciones, mejoras y visuales extra son bienvenidas — ¡haz un fork y envía PR! 🍿
 
 ---
+
+## 📦 Generar / actualizar requirements.txt
+
+Generar desde el entorno activo (recomendado):
+```powershell
+pip freeze > requirements.txt
+```
+
