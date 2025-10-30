@@ -2,7 +2,11 @@
 
 🎞️ Bienvenido — un sistema de recomendación basado en contenido que usa TF‑IDF y similitud del coseno para sugerir películas a partir de su descripción (`overview`). Incluye visualizaciones estilo "Netflix" para explorar resultados de forma atractiva.
 
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org) [![License](https://img.shields.io/badge/license-MIT-green)](#)
+
+
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org) [![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow?logo=power-bi&logoColor=white)](https://powerbi.microsoft.com) [![Matplotlib](https://img.shields.io/badge/matplotlib-3.x-282C34?logo=matplotlib&logoColor=white)](https://matplotlib.org) [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0-green?logo=scikit-learn&logoColor=white)](https://scikit-learn.org) [![TF-IDF](https://img.shields.io/badge/TF--IDF-NLP-blue)](#)
+
+
 
 ---
 
