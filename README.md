@@ -20,7 +20,23 @@
 ---
 
 ## 🗂️ Estructura sugerida del proyecto
-.......
+```text
+Proyecto raíz
+├── README.md                     <- Descripción general
+├── DashboardMovieRecomender.pbix  <- Archivo Power BI (dashboard)
+├── requirements.txt              <- Dependencias pip
+├── api/
+│   ├── app.py                    <- Script de prueba que consulta una película y solicita recomendaciones
+│   └── recommender.py            <- Clases y funciones: TF‑IDF, similitud coseno y generación de recomendaciones
+├── data/
+│   ├── tmdb_5000_movies.csv
+│   ├── tmdb_5000_credits.csv
+│   └── clean_movies.csv          <- Dataset limpio usado por notebooks y scripts
+└── notebooks/
+    ├── 0.0_movies_data_preparation.ipynb
+    ├── 1.0_movies_exploratory_data_analysis.ipynb
+    └── 2.0_movies_tfidf_recommendation_engine.ipynb
+```
 
 ---
 
