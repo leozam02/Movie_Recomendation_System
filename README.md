@@ -20,13 +20,7 @@
 ---
 
 ## 🗂️ Estructura sugerida del proyecto
-- data/ — datasets (ej. `clean_movies.csv`)  
-- scripts/ — scripts (`1_visual_pelicula.py`, `2_recomendador.py`, etc.)  
-- notebooks/ — análisis exploratorio (opcional)  
-- assets/ — imágenes, logos y salidas gráficas  
-- README.md — este archivo
-
-(Ajustar según la estructura real del repositorio.)
+.......
 
 ---
 
@@ -52,7 +46,7 @@ Librerías principales:
 1) Ruta del dataset  
    Asegurarse de que los scripts referencien la ruta correcta a `clean_movies.csv`. Ejemplo (Windows):
    ```python
-   movie_df = pd.read_csv(r"C:/Users/leoza/Desktop/ESPOL/ProyectoCIAP/data/clean_movies.csv")
+   movie_df = pd.read_csv(r"C:/Users//Desktop/ProyectoCIAP/data/clean_movies.csv")
    ```
 
 2) API Key (solo si usas el script que descarga pósters desde TMDb)  
